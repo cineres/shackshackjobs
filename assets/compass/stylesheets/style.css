@@ -145,25 +145,34 @@
   height: 500px;
 }
 
-/* line 138, ../sass/style.scss */
-.job-filters select {
-  border-radius: 2px;
-  background-color: #fff;
-  border: 1px solid #dfe0e6;
-  color: #88898c;
-  font-size: .9375em;
-  height: 3em;
-  margin: 0;
-  padding: .625em .625em .625em;
-  width: 100%;
+/* line 137, ../sass/style.scss */
+.filters {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* line 140, ../sass/style.scss */
+.filters a {
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+/* line 147, ../sass/style.scss */
+.filters .selected {
+  color: #60ae2b;
+}
+/* line 150, ../sass/style.scss */
+.filters a:hover {
+  color: #60ae2b;
 }
 
-/* line 153, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .secondary-menu ul {
   margin-bottom: 0px;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 section {
   padding-bottom: 100px;
 }

@@ -134,19 +134,22 @@ $green: #60ae2b;
 
 
 
-.job-filters{
-    select{
-        border-radius: 2px;
-        background-color: #fff;
-        border: 1px solid #dfe0e6;
-        color: #88898c;
-        font-size: .9375em;
-        height: 3em;
-        margin: 0;
-        padding: .625em .625em .625em;
-        width: 100%;
+.filters{
+	text-align: center;
+	padding-bottom: 20px;
+	a{
+		color: black;
+		text-decoration: none;
+		padding-left: 20px;
+		padding-right: 20px;
+        display: inline-block;
+	}
+    .selected{
+        color: $green;
     }
-        
+	a:hover{
+		color: $green;
+	}
 }
 
 .secondary-menu{
