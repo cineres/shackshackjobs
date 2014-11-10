@@ -86,30 +86,26 @@
   color: #4c4c4c;
 }
 
-/* line 72, ../sass/style.scss */
-#benefits {
-  padding-top: 60px;
-}
-/* line 74, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 #benefits .fa {
   text-align: center;
   display: block;
 }
-/* line 78, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 #benefits h3 {
   text-align: center;
   color: #60ae2b;
 }
-/* line 82, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 #benefits p {
   text-align: center;
 }
-/* line 85, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 #benefits .row {
   padding-bottom: 40px;
 }
 
-/* line 94, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .job-search-section .job-item {
   position: relative;
   float: left;
@@ -118,10 +114,11 @@
   padding: 10px;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .job-search .form-group {
   display: inline-block;
   width: 80%;
+  padding-top: 20px;
 }
 /* line 109, ../sass/style.scss */
 .job-search button {
@@ -165,5 +162,5 @@
 
 /* line 158, ../sass/style.scss */
 section {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
