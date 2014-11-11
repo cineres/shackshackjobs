@@ -1,26 +1,4 @@
-$(window).load(function(){
-    var $container = $('.jobs');
-    $container.isotope({
-        filter: '*',
-        animationOptions: {
-        duration: 750,
-            easing: 'linear',
-            queue: false
-        }
-    });
- 
-    $('.filters a').click(function(){
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-         });
-         return false;
-    }); 
+$(window).load(function(){ 
     $('.filters a').click(function(){
         if($(this).hasClass('selected')){
            $(this).removeClass('selected');
@@ -59,6 +37,15 @@ $('.carousel .item').each(function(){
     next.children(':first-child').clone().appendTo($(this));
   }
 });
+    
+$(".see-all").click(function () {
+    if($(".job-results").hasClass("in")) {
+        $('.see-all').text("See all");
+    } else {
+        $('.see-all').text("See less");
+    }
+});    
+    
 
 
 });

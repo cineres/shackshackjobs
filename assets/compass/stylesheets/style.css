@@ -229,50 +229,62 @@ section {
   background-image: none;
 }
 
-/* line 186, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
+.carousel {
+  height: 100px;
+}
+
+/* line 189, ../sass/style.scss */
 .position-filter {
   text-align: center;
 }
 
-/* line 190, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .title {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 197, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .job-results h3 {
   margin: 0px;
   color: black;
 }
-/* line 199, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .job-results .apply a {
   color: #60ae2b;
 }
 
-/* line 203, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .job-item {
   padding-bottom: 15px;
 }
 
-/* line 207, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 .see-all {
   border-radius: 0px;
   background: transparent;
 }
 
-/* line 212, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .city-name {
   text-align: center;
   font-size: .7em;
 }
 
-/* line 216, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .city-name::hover {
   color: #60ae2b;
 }
 
-/* line 219, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .item {
   height: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 227, ../sass/style.scss */
+.benefits-callout {
+  padding-top: 120px;
 }

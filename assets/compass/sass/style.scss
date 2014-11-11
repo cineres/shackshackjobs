@@ -181,6 +181,9 @@ section{
 .carousel-control 			 { width:  4%; }
 .carousel-control.left,.carousel-control.right {margin-left:-20px;background-image:none;}
 
+.carousel{
+    height: 100px;
+}
 
 
 .position-filter {
@@ -218,4 +221,10 @@ section{
 }
 .item{
     height: 150px;
+    text-align: center;
+    width: 100%;
 }
+.benefits-callout{
+    padding-top: 120px;
+}
+
