@@ -1,4 +1,17 @@
 /* line 2, ../sass/style.scss */
+body {
+  background-image: url("../../img/bg.png");
+  background-repeat: repeat;
+}
+
+/* line 4, ../sass/style.scss */
+.nav-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 9, ../sass/style.scss */
 .call-to-action {
   background-color: lightgrey;
   height: 200px;
@@ -11,7 +24,7 @@
   margin-bottom: 20px;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .call-to-action-full {
   background-color: lightgrey;
   width: 100%;
@@ -21,24 +34,24 @@
   color: white;
   text-align: center;
 }
-/* line 21, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .call-to-action-full a {
   color: white;
 }
-/* line 24, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .call-to-action-full h2 {
   margin-bottom: 0px;
   margin-top: 5px;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .green-background {
   background-color: #60ae2b;
   width: 100%;
   margin-bottom: 100px;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .banner-image {
   width: 100%;
   overflow: hidden;
@@ -47,13 +60,13 @@
   padding: 0px;
   margin: 0px;
 }
-/* line 38, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .banner-image img {
   max-width: 100%;
   vertical-align: bottom;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .secondary-menu {
   font-family: "Arial";
   font-size: 1em;
@@ -62,378 +75,216 @@
   line-height: 52px;
   margin-bottom: 49px;
 }
-/* line 51, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .secondary-menu ul {
   text-align: center;
+  padding-left: 0px;
 }
-/* line 53, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .secondary-menu ul li {
   display: inline-block;
   zoom: 1;
   padding: 0 1.923%;
 }
-/* line 57, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .secondary-menu ul li a {
   text-decoration: none;
   color: #4c4c4c;
 }
 
-/* line 65, ../sass/style.scss */
-.tout {
-  display: inline-block;
-}
-/* line 67, ../sass/style.scss */
-.tout img {
-  text-align: center;
-}
-
-/* line 71, ../sass/style.scss */
-.tout-text {
-  display: inline-block;
-}
-/* line 73, ../sass/style.scss */
-.tout-text h2 {
-  margin-top: 0px;
-}
-
-/* line 78, ../sass/style.scss */
-.video-banner {
-  width: 100%;
-  overflow: hidden;
-  background-color: #60ae2b;
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-}
-/* line 85, ../sass/style.scss */
-.video-banner .video-banner-background {
-  max-width: 100%;
-  vertical-align: bottom;
-  background: grey no-repeat center;
-  height: 414px;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 94, ../sass/style.scss */
-.video-banner .video-text {
-  background: rgba(0, 0, 0, 0.65);
-  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.65);
-  margin-bottom: 0px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 30px;
-}
-/* line 102, ../sass/style.scss */
-.video-banner h2 {
-  color: #fff;
-  padding-top: 30px;
-}
-/* line 106, ../sass/style.scss */
-.video-banner button {
-  width: 160px;
-  height: 40px;
-  margin-bottom: 30px;
-}
-/* line 111, ../sass/style.scss */
-.video-banner p {
-  color: #fff;
-  text-align: left;
-}
-
-/* line 118, ../sass/style.scss */
-.carousel-control .fa {
-  position: absolute;
-  top: 40%;
-  z-index: 5;
-  display: inline-block;
-}
-/* line 125, ../sass/style.scss */
-.carousel-control .left i {
-  float: left;
-}
-/* line 128, ../sass/style.scss */
-.carousel-control .right i {
-  float: right;
-}
-
-/***** MODAL PROPERTIES *****/
-/* line 134, ../sass/style.scss */
-.video-modal .modal-content {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background: transparent;
-  border: none;
-  outline: none;
-}
-/* line 140, ../sass/style.scss */
-.video-modal .modal-content .video-iframe {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-/* line 146, ../sass/style.scss */
-.video-modal .close-big {
-  font-size: 80px !important;
-  margin: -20px -40px 0 0 !important;
-  color: #fff;
-}
-
-/* line 155, ../sass/style.scss */
-.value {
-  padding-bottom: 30px;
-}
-/* line 157, ../sass/style.scss */
-.value .fa {
-  color: #60ae2b;
-}
-
-/* line 161, ../sass/style.scss */
-.values {
-  padding-bottom: 70px;
-}
-
-/* line 165, ../sass/style.scss */
-#benefits {
-  padding-top: 60px;
-}
-/* line 167, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 #benefits .fa {
   text-align: center;
   display: block;
 }
-/* line 171, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 #benefits h3 {
   text-align: center;
   color: #60ae2b;
 }
-/* line 175, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 #benefits p {
   text-align: center;
 }
-/* line 178, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 #benefits .row {
   padding-bottom: 40px;
 }
 
-/* line 186, ../sass/style.scss */
-.employee-bios {
-  /* ---- button-group ---- */
-}
-/* line 187, ../sass/style.scss */
-.employee-bios .bio-item {
-  position: relative;
-  float: left;
-  width: 175px;
-  height: 175px;
-  margin: 5px;
-  padding: 10px;
-  background: #888;
-  color: #262524;
-}
-/* line 198, ../sass/style.scss */
-.employee-bios .bio-item > * {
-  margin: 0;
-  padding: 0;
-}
-/* line 203, ../sass/style.scss */
-.employee-bios .bio-item .name {
-  position: absolute;
-  left: 10px;
-  top: 90px;
-  text-transform: none;
-  letter-spacing: 0;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-}
-/* line 214, ../sass/style.scss */
-.employee-bios .bio-item .position {
-  position: absolute;
-  left: 10px;
-  top: 110px;
-  font-size: 14px;
-  color: white;
-}
-/* line 222, ../sass/style.scss */
-.employee-bios .bio-item .location {
-  position: absolute;
-  left: 10px;
-  top: 125px;
-  color: white;
-}
-/* line 229, ../sass/style.scss */
-.employee-bios .button {
-  display: inline-block;
-  padding: 0.5em 1.0em;
-  background: #EEE;
-  border: none;
-  border-radius: 7px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-  color: #222;
-  font-family: sans-serif;
-  font-size: 16px;
-  text-shadow: 0 1px white;
-  cursor: pointer;
-}
-/* line 243, ../sass/style.scss */
-.employee-bios .button:hover {
-  background-color: #8CF;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
-  color: #222;
-}
-/* line 250, ../sass/style.scss */
-.employee-bios .button:active,
-.employee-bios .button.is-checked {
-  background-color: #28F;
-}
-/* line 254, ../sass/style.scss */
-.employee-bios .button.is-checked {
-  color: white;
-  text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
-}
-/* line 259, ../sass/style.scss */
-.employee-bios .button:active {
-  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
-}
-/* line 265, ../sass/style.scss */
-.employee-bios .button-group:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-/* line 271, ../sass/style.scss */
-.employee-bios .button-group .button {
-  float: left;
-  border-radius: 0;
-  margin-left: 0;
-  margin-right: 1px;
-}
-/* line 278, ../sass/style.scss */
-.employee-bios .button-group .button:first-child {
-  border-radius: 0.5em 0 0 0.5em;
-}
-/* line 279, ../sass/style.scss */
-.employee-bios .button-group .button:last-child {
-  border-radius: 0 0.5em 0.5em 0;
-}
-/* line 281, ../sass/style.scss */
-.employee-bios .button-group {
-  margin-bottom: 20px;
-}
-
-/* line 289, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .job-search .form-group {
   display: inline-block;
   width: 80%;
 }
-/* line 293, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .job-search button {
   display: inline-block;
   width: 19%;
 }
 
-/* line 299, ../sass/style.scss */
-.search-categories select[multiple] {
-  height: 200px;
-}
-/* line 301, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .search-categories select[multiple] option {
   font-size: 22px;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .advanced-search a {
   padding-top: 20px;
 }
 
-/* line 313, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 #careers-frame iframe {
   width: 100%;
   height: 500px;
 }
 
-/* line 320, ../sass/style.scss */
-.isotope,
-.isotope .isotope-item {
-  /* change duration value to whatever you like */
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -ms-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-
-/* line 329, ../sass/style.scss */
-.isotope {
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  -ms-transition-property: height, width;
-  -o-transition-property: height, width;
-  transition-property: height, width;
-}
-
-/* line 337, ../sass/style.scss */
-.isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
-  -ms-transition-property: -ms-transform, opacity;
-  -o-transition-property: -o-transform, opacity;
-  transition-property: transform, opacity;
-}
-
-/**** disabling Isotope CSS3 transitions ****/
-/* line 349, ../sass/style.scss */
-.isotope.no-transition,
-.isotope.no-transition .isotope-item,
-.isotope .isotope-item.no-transition {
-  -webkit-transition-duration: 0s;
-  -moz-transition-duration: 0s;
-  -ms-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  transition-duration: 0s;
-}
-
-/* line 357, ../sass/style.scss */
-.modal-content {
-  padding: 20px;
-  background: url("../../img/bio-bg.png") no-repeat center;
-  background-size: 900px 400px;
-  color: #fff;
-}
-/* line 362, ../sass/style.scss */
-.modal-content p {
-  width: 50%;
-}
-
-/* line 366, ../sass/style.scss */
-.modal-lg {
-  border-radius: 0px;
-}
-
-/* line 370, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .filters {
   text-align: center;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
-/* line 373, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .filters a {
-  color: black;
+  color: gray;
   text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
 }
-/* line 379, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
+.filters a h5 {
+  margin-top: 0px;
+}
+/* line 140, ../sass/style.scss */
+.filters .selected {
+  color: #60ae2b;
+}
+/* line 143, ../sass/style.scss */
 .filters a:hover {
   color: #60ae2b;
 }
 
-/* line 385, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .secondary-menu ul {
   margin-bottom: 0px;
 }
 
-/* line 390, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 section {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
+}
+
+/* line 158, ../sass/style.scss */
+.submit-search {
+  display: inline-block;
+}
+
+/* line 161, ../sass/style.scss */
+.form-group {
+  display: inline-block;
+}
+
+/* line 164, ../sass/style.scss */
+.position-button {
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+/* line 168, ../sass/style.scss */
+.position-button:hover {
+  background-color: #60ae2b;
+  color: #fff;
+}
+
+/* line 172, ../sass/style.scss */
+.highlight {
+  background-color: #60ae2b;
+  color: #fff;
+}
+
+/* line 178, ../sass/style.scss */
+.carousel-inner .active.left {
+  left: -25%;
+}
+
+/* line 179, ../sass/style.scss */
+.carousel-inner .next {
+  left: 25%;
+}
+
+/* line 180, ../sass/style.scss */
+.carousel-inner .prev {
+  left: -25%;
+}
+
+/* line 181, ../sass/style.scss */
+.carousel-control {
+  width: 4%;
+}
+
+/* line 182, ../sass/style.scss */
+.carousel-control.left, .carousel-control.right {
+  margin-left: -20px;
+  background-image: none;
+}
+
+/* line 184, ../sass/style.scss */
+.carousel {
+  height: 100px;
+}
+
+/* line 189, ../sass/style.scss */
+.position-filter {
+  text-align: center;
+}
+
+/* line 193, ../sass/style.scss */
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 200, ../sass/style.scss */
+.job-results h3 {
+  margin: 0px;
+  color: black;
+}
+/* line 202, ../sass/style.scss */
+.job-results .apply a {
+  color: #60ae2b;
+}
+
+/* line 206, ../sass/style.scss */
+.job-item {
+  padding-bottom: 15px;
+}
+
+/* line 210, ../sass/style.scss */
+.see-all {
+  border-radius: 0px;
+  background: transparent;
+}
+
+/* line 215, ../sass/style.scss */
+.city-name {
+  text-align: center;
+  font-size: .7em;
+}
+
+/* line 219, ../sass/style.scss */
+.city-name::hover {
+  color: #60ae2b;
+}
+
+/* line 222, ../sass/style.scss */
+.item {
+  height: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 227, ../sass/style.scss */
+.benefits-callout {
+  padding-top: 120px;
 }
