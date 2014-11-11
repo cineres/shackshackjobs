@@ -27,9 +27,15 @@ $(window).load(function(){
         }
         else{
             $(this).addClass('selected');
+        }   
+    });
+    $('.position-button').click(function(){
+        if($(this).hasClass('highlight')){
+           $(this).removeClass('highlight');
         }
-                  
-        
+        else{
+            $(this).addClass('highlight');
+        }   
     });
 
 

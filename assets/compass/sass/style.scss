@@ -154,6 +154,7 @@ $green: #60ae2b;
 	}
 }
 
+
 .secondary-menu{
 	ul{
 		margin-bottom: 0px;
@@ -169,3 +170,14 @@ section{
 .form-group{
     display: inline-block;
 }
+.position-button{
+    background-color: #fff;
+    border-radius: 0px;
+}
+.position-button:hover{
+        background-color: $green;
+        color: #fff;
+}
+.highlight{
+        background-color: $green;
+        color: #fff;}

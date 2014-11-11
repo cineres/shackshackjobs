@@ -172,22 +172,40 @@
   color: #60ae2b;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .secondary-menu ul {
   margin-bottom: 0px;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 section {
   padding-bottom: 100px;
 }
 
-/* line 166, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .submit-search {
   display: inline-block;
 }
 
-/* line 169, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .form-group {
   display: inline-block;
+}
+
+/* line 173, ../sass/style.scss */
+.position-button {
+  background-color: #fff;
+  border-radius: 0px;
+}
+
+/* line 177, ../sass/style.scss */
+.position-button:hover {
+  background-color: #60ae2b;
+  color: #fff;
+}
+
+/* line 181, ../sass/style.scss */
+.highlight {
+  background-color: #60ae2b;
+  color: #fff;
 }
