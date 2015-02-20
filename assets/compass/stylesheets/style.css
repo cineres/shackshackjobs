@@ -288,3 +288,8 @@ section {
 .benefits-callout {
   padding-top: 120px;
 }
+
+/* line 230, ../sass/style.scss */
+.small {
+  font-size: .7em;
+}
